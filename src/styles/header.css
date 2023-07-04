@@ -24,7 +24,7 @@
 }
 
 .header__div {
-    color: #F2F2F2;
+    color: var(--color-main);
 }
 
 .h1 {
@@ -47,8 +47,8 @@
 .span__k, .span__m { letter-spacing: initial; }
 
 .span__m {
-    color: #2E2E2E;
+    color: var(--color-black-mk);
 }
 .span__k {
-    color: #FA5858;
+    color: var(--color-red-mk);
 }

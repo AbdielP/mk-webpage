@@ -9,10 +9,16 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  --color-main: #F2F2F2;
+  --color-black-mk: #2E2E2E;
+  --color-red-mk: #FA5858;
+
+  --background-color: #F2F2F2;
 }
 
 
 :root body {
   width: 100%;
-  background-color: #F2F2F2;
+  background-color: var(--background-color);
 }

@@ -1,0 +1,17 @@
+.navbar {
+    display: flex;
+    position: absolute;
+    justify-content: flex-end;
+    background-color: var(--color-red-mk);
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navbar a {
+    padding: .5em;
+    text-decoration: none;
+    color: var(--color-main);
+    letter-spacing: .09em;
+    font-size: .8em;
+}
