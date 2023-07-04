@@ -13,7 +13,7 @@
 }
 
 .navbar a, .dropbtn {
-    padding: .5em;
+    padding: .5em .7em;
     text-decoration: none;
     letter-spacing: .09em;
     font-size: .8em;
@@ -22,7 +22,8 @@
 
 /* DROPDOWN */
 .dropbtn {
-    padding: 0;
+    padding-top: 0;
+    padding-bottom: 0;
     background: none;
     border: none;
     cursor: pointer;
