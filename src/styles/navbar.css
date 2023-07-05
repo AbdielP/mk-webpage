@@ -25,7 +25,12 @@
 }
 
 .div__whatsapp {
-    /* background-color: green; */
+   margin-left: .5em;
+}
+
+.whatsappicon {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(73deg) brightness(103%) contrast(101%);
+    margin-right: .3em;
 }
 
 /* DROPDOWN */
