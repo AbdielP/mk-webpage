@@ -40,10 +40,9 @@
 
 .h2 {
     font-weight: 400;
-    /* font-style: italic; */
     font-size: 1.1em;
     margin-top: .8em;
-    letter-spacing: .15em
+    letter-spacing: .12em
 } .h2 span {
     display: block;
 }
