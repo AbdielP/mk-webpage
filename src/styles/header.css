@@ -28,6 +28,7 @@
 
 .header__div {
     color: var(--color-main);
+    text-align: center;
 }
 
 .h1 {
@@ -45,8 +46,6 @@
     letter-spacing: .15em
 } .h2 span {
     display: block;
-}.h2, .h2 span {
-    text-align: center;
 }
 
 .span__k, .span__m { letter-spacing: initial; }
@@ -57,3 +56,28 @@
 .span__k {
     color: var(--color-red-mk);
 }
+
+@media (min-width: 800px) { 
+    .header {
+        padding: 4em;
+        height: 450px;
+        align-items: start;
+        justify-content: flex-start;
+    }
+
+    .header__div {
+        text-align: start;
+    }
+
+    .h1 {
+        font-size: 5em;
+    }
+
+    .h2 {
+        font-size: 1.4em;
+    }
+
+    .h2 span {
+        display: inline;
+    }
+} 
