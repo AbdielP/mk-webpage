@@ -1,7 +1,9 @@
-import React from 'react'
+import '../styles/servicios.css'
 
 export default function Servicios() {
   return (
-    <div>Servicios</div>
+    <section className='section__servicios'>
+      <h3 className='h3'>Nuestros Servicios</h3>
+    </section>
   )
 }

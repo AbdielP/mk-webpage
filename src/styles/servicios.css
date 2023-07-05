@@ -1,0 +1,12 @@
+.section__servicios {
+    background-color: var(--background-color2);
+    color: var(--color-grey);
+    /* height: 100px; */
+}
+
+.h3 {
+    font-family: 'Anton', sans-serif;
+    letter-spacing: .08em;
+    text-align: center;
+    padding: 2em 0;
+}
