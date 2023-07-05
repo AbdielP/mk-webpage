@@ -1,12 +1,26 @@
 .section__servicios {
     background-color: var(--background-color2);
     color: var(--color-grey);
+    padding: 1.3em;
     /* height: 100px; */
+}
+
+.div__info {
+    display: flex;
+    flex-direction: column;
 }
 
 .h3 {
     font-family: 'Anton', sans-serif;
     letter-spacing: .08em;
-    text-align: center;
-    padding: 2em 0;
+    margin-bottom: .5em;
+}
+
+.p__servicios, .p__info {
+    text-align: justify;
+    font-size: .9em;
+}
+
+.hr {
+    margin: .5em 0;
 }
