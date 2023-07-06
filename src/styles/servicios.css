@@ -2,6 +2,7 @@
     background-color: var(--background-color2);
     color: var(--color-grey);
     padding: 1.3em;
+    position: relative;
     /* height: 100px; */
 }
 

@@ -1,0 +1,24 @@
+.container__cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    /* background-color: rebeccapurple; */
+}
+
+.card {
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+}
+
+@media (min-width: 900px) { 
+    .container__cards {
+        position: absolute;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        top: -3em;
+        left: 0;
+        /* padding: 1em; */
+    }
+}

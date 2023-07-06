@@ -1,8 +1,10 @@
 import "../styles/servicios.css"
+import Cards from "./Cards"
 
 export default function Servicios() {
   return (
     <section className="section__servicios">
+      <Cards />
       <h3 className="h3">Nuestros Servicios</h3>
       <div className="div__info">
         <p className="p__servicios">
