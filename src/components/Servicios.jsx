@@ -1,4 +1,4 @@
-import "../styles/servicios.css";
+import "../styles/servicios.css"
 
 export default function Servicios() {
   return (
@@ -17,5 +17,6 @@ export default function Servicios() {
         </p>
       </div>
     </section>
-  );
+  )
 }
+// https://themes.vamtam.com/?theme=auto
