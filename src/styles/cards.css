@@ -12,6 +12,7 @@
 
 .card {
     width: 100%;
+    /* height: 230px; */
 }
 
 .card__header {
@@ -23,13 +24,22 @@
 }
 
 .card__container {
-    /* text-align: justify; */
+    height: 150px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
     letter-spacing: .1em;
     padding: 1em;
 }
 
 .ol__servicios {
     padding: .5em 1.7em;
+}
+
+.span__horario {
+    color: var(--color-red-mk);
+    font-weight: 500;
 }
 
 @media (min-width: 900px) {
