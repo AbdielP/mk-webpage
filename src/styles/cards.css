@@ -3,22 +3,45 @@
     flex-direction: column;
     justify-content: space-around;
     width: 100%;
-    /* background-color: rebeccapurple; */
 }
 
 .card {
-    width: 200px;
-    height: 100px;
-    background-color: aqua;
+    width: 100%;
+    box-shadow: -1px 3px 5px 0px rgba(0, 0, 0, 0.54);
+    -webkit-box-shadow: -1px 3px 5px 0px rgba(0, 0, 0, 0.54);
+    -moz-box-shadow: -1px 3px 5px 0px rgba(0, 0, 0, 0.54);
 }
 
-@media (min-width: 900px) { 
+.card__header {
+    background-color: var(--color-red-mk);
+    color: var(--background-color);
+    text-align: center;
+    letter-spacing: .2em;
+    padding: .4em;
+}
+
+.card__container {
+    /* padding: 1em 2em; */
+    /* margin-left: 2.5em; */
+    /* margin-top: 1em; */
+    text-align: justify;
+    margin: 1em 2em 1em;
+}
+
+@media (min-width: 900px) {
     .container__cards {
         position: absolute;
         flex-direction: row;
-        flex-wrap: nowrap;
         top: -3em;
         left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
         /* padding: 1em; */
+    }
+
+    .card {
+        width: 25%;
     }
 }
