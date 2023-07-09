@@ -8,7 +8,7 @@ export default function Navbar() {
     <nav className='navbar'>
       <div className='div__whatsapp'>
         <WhatsAppIcon fontSize="inherit" sx={{color: 'white'}}></WhatsAppIcon>
-        <a className='a__whatsapp' href="">6969-6969</a>
+        <a className='a__whatsapp' href="">6490-0247</a>
       </div>
       <div className='div__menu'>
 
