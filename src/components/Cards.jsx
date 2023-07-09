@@ -31,10 +31,10 @@ export default function Cards() {
           <AccessTimeTwoToneIcon fontSize="large" sx={{ color: 'white'}} />
           <p className='card__p'>HORARIO</p>
         </div>
-        <div className='card__container'>
-          <p>Lunes a Sábado: <span className='span__horario'>08:00 a.m - 5:00 p.m</span></p>
-          <p>Domingos: <b>Cerrado</b></p>
-          <p>Emergencias: <span>24 Horas / 7 Días</span></p>
+        <div className='card__container text-center'>
+          <p className='text-center'>Lunes a Sábado: <span className='span__horario'>08:00 a.m - 5:00 p.m</span></p>
+          <p className='text-center'>Domingos: <b>Cerrado</b></p>
+          <p className='text-center'>Emergencias: <span>24 Horas / 7 Días</span></p>
         </div>
       </div>
 

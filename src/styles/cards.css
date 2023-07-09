@@ -33,6 +33,10 @@
     padding: 1em;
 }
 
+.card__container p {
+    width: 100%;
+}
+
 .ol__servicios {
     padding: .5em 1.7em;
 }
@@ -44,9 +48,10 @@
 
 @media (min-width: 900px) {
     .container__cards {
+        background-color: var(--background-color);
         position: absolute;
         flex-direction: row;
-        top: -3em;
+        top: -6em;
         left: 0;
         right: 0;
         margin-left: auto;

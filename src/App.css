@@ -11,3 +11,7 @@
   min-width: 375px;
   margin: auto;
 }
+
+.text-center {
+  text-align: center;
+}
