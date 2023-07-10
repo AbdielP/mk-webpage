@@ -3,7 +3,6 @@
     color: var(--color-grey);
     padding: 1.3em;
     position: relative;
-    /* height: 100px; */
 }
 
 .div__info {
@@ -14,6 +13,7 @@
 .h3 {
     font-family: 'Anton', sans-serif;
     letter-spacing: .08em;
+    margin-top: 1em;
     margin-bottom: .5em;
 }
 
@@ -24,4 +24,27 @@
 
 .hr {
     margin: .5em 0;
+}
+
+@media (min-width: 800px) { 
+
+    .section__servicios {
+        padding: 5em;
+    }
+
+    .h3 {
+        text-align: center;
+        margin-top: 3em;
+        font-size: 2.7em;
+    }
+
+    .div__info {
+        flex-direction: row;
+        font-size: 1.1em;
+        justify-content: space-between;
+    }
+
+    .p__servicios, .p__info {
+        width: 45%;
+    }
 }

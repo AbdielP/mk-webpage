@@ -5,7 +5,7 @@ export default function Servicios() {
   return (
     <section className="section__servicios">
       <Cards />
-      <h3 className="h3">Nuestros Servicios</h3>
+      <h3 className="h3">NUESTROS SERVICIOS</h3>
       <div className="div__info">
         <p className="p__servicios">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum vel
