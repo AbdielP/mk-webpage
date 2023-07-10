@@ -1,4 +1,4 @@
-import '../styles/cards.css'
+import '../../styles/cards.css'
 import BuildCircleTwoToneIcon from '@mui/icons-material/BuildCircleTwoTone'
 import ArrowForwardSharpIcon from '@mui/icons-material/ArrowForwardSharp'
 import AccessTimeTwoToneIcon from '@mui/icons-material/AccessTimeTwoTone'

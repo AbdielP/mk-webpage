@@ -5,7 +5,7 @@
     position: relative;
 }
 
-.div__info {
+.div__info, .div__servicios {
     display: flex;
     flex-direction: column;
 }
@@ -26,6 +26,10 @@
     margin: .5em 0;
 }
 
+.div__servicios {
+    background-color: red;
+}
+
 @media (min-width: 800px) { 
 
     .section__servicios {
@@ -38,8 +42,11 @@
         font-size: 2.7em;
     }
 
-    .div__info {
+    .div__info, .div__servicios {
         flex-direction: row;
+    }
+
+    .div__info {
         font-size: 1.1em;
         justify-content: space-between;
     }

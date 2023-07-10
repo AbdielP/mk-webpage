@@ -1,5 +1,6 @@
-import "../styles/servicios.css"
+import "../../styles/servicios.css"
 import Cards from "./Cards"
+import CardServicios from "./CardServicios"
 
 export default function Servicios() {
   return (
@@ -17,6 +18,9 @@ export default function Servicios() {
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt,
           magni?
         </p>
+      </div>
+      <div className="div__servicios">
+        <CardServicios></CardServicios>
       </div>
     </section>
   )
