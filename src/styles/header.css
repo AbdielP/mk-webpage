@@ -11,7 +11,7 @@
 .header__background {
     position: absolute;
     height: 100%;
-    background-color: #ccc;
+    /* background-color: #ccc; */
     /* background-image: url('../assets/images/header.jpg');
     background-repeat: no-repeat;
     background-size: cover;
