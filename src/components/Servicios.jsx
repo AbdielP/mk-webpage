@@ -21,4 +21,3 @@ export default function Servicios() {
     </section>
   )
 }
-// https://themes.vamtam.com/?theme=auto
