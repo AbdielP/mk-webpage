@@ -4,9 +4,9 @@
     justify-content: space-around;
     font-size: .9em;
     
-    box-shadow: -1px 3px 5px 0px rgba(0, 0, 0, 0.54);
-    -webkit-box-shadow: -1px 3px 5px 0px rgba(0, 0, 0, 0.54);
-    -moz-box-shadow: -1px 3px 5px 0px rgba(0, 0, 0, 0.54);
+    box-shadow: -1px 1px 5px 0px rgba(0, 0, 0, 0.60);
+    -webkit-box-shadow: -1px 1px 5px 0px rgba(0, 0, 0, 0.60);
+    -moz-box-shadow: -1px 1px 5px 0px rgba(0, 0, 0, 0.60);
 }
 
 /* .container__cards, .card,
@@ -46,6 +46,7 @@
 }
 
 .card_map {
+    width: 100%;
     padding: 2em;
     background-image: url('../assets/images/ubicacion_small.png');
     background-repeat: no-repeat;
@@ -75,21 +76,53 @@
 }.div__contact_icons p {
     margin-left: .3em;
 }
+
+@media (min-width: 550px) { 
+    .container__cards {
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 550px) { 
+    .card__container {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn_leer {
+        align-self: center;
+    }
+}
+
 @media (min-width: 900px) {
     .container__cards {
         background-color: var(--background-color);
         position: absolute;
         flex-direction: row;
-        top: -5em;
+        top: -6em;
         left: 0;
         right: 0;
         margin-left: auto;
         margin-right: auto;
         width: 88%;
+        font-size: .7em;
     }
 
     .card {
         width: 25%;
-        font-size: .93em;
+        border-right: 1px solid #ccc;
+    }
+
+
+    .ol__servicios {
+        padding: 0;
+        padding-top: .5em;
+        padding-left: 3em;
+    }
+}
+
+@media (min-width: 1200px) { 
+    .container__cards {
+        font-size: .9em;
     }
 }
