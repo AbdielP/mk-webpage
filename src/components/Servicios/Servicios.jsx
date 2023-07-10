@@ -20,7 +20,7 @@ export default function Servicios() {
         </p>
       </div>
       <div className="div__servicios">
-        <CardServicios></CardServicios>
+        <CardServicios />
       </div>
     </section>
   )
