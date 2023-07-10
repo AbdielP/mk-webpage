@@ -20,8 +20,8 @@ export default function Navbar() {
             <a href="#">Link 3</a>
           </div>
         </div>
-        <a className="a__menu" href="">Contacto</a>
         <a className="a__menu" href="">Ubicación</a>
+        <a className="a__menu" href="">Contacto</a>
       </div>
     </nav>
   )

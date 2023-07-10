@@ -15,6 +15,7 @@
 
 .img__card_services{
     width: 100%;
+    border-radius: .3em;
 }
 
 .card__services__p {
