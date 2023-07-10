@@ -7,6 +7,7 @@
 
 .div__info, .div__servicios {
     display: flex;
+} .div__info {
     flex-direction: column;
 }
 
@@ -27,7 +28,8 @@
 }
 
 .div__servicios {
-    background-color: red;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 @media (min-width: 800px) { 

@@ -1,0 +1,10 @@
+.card__services {
+    /* background-color: rebeccapurple; */
+    margin-top: 2em;
+    max-width: 400px;
+    border: 1px solid #ccc;
+}
+
+.img__card_services{
+    width: 100%;
+}
