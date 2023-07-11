@@ -56,6 +56,7 @@
 
     .p__servicios, .p__info {
         width: 45%;
+        letter-spacing: .1em;
     }
 }
 
