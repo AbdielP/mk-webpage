@@ -1,9 +1,6 @@
 .card__services {
-    /* background-color: rebeccapurple; */
     margin-top: 2em;
     width: 100%;
-    /* max-width: 280px; */
-    /* border: 1px solid #ccc; */
 }
 
 .card__services__h4 {
@@ -26,4 +23,5 @@
     .card__services {
         width: 300px;
     }
+
 }
