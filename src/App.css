@@ -10,6 +10,7 @@
   max-width: 1980px;
   min-width: 375px;
   margin: auto;
+  color: var(--color-grey);
 }
 
 .text-center {
