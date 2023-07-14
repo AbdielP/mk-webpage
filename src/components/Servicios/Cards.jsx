@@ -63,15 +63,16 @@ export default function Cards() {
           <p className='card__p'>CONTACTO</p>
         </div>
         <div className='card__container text-center'>
-          <a href='tel:+5076490-0247' className='p__card_phone'>+507 6490-0247</a>
+          {/* <a href='tel:+5076490-0247' className='p__card_phone'>+507 6490-0247</a> */}
+          <a href='https://wa.me/50764900247' target='_blank' className='p__card_phone'>+507 6490-0247</a>
           <div className='div__contact'>
             <div className='div__contact_icons'>
               <WhatsAppIcon fontSize="inherit"/>
-              <p>Whatsapp</p>
+              <a className='a__contacto' href='https://wa.me/50764900247' target='_blank'>Whatsapp</a>
             </div>
             <div className='div__contact_icons'>
               <LocalPhoneIcon fontSize="inherit"/>
-              <p>Teléfono</p>
+              <a className='a__contacto' href='tel:+5076490-0247'>Teléfono</a>
             </div>
           </div>
         </div>

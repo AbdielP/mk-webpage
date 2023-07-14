@@ -60,8 +60,11 @@
 .p__card_phone {
     font-size: 2em;
     font-weight: 500;
-    text-decoration: none;
     color: var(--color-red-mk);
+}.a__contacto, .p__card_phone {
+    text-decoration: none;
+}.a__contacto {
+    color: var(--color-grey);
 }
 
 .div__contact_icons {
