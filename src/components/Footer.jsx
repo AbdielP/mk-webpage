@@ -9,7 +9,7 @@ export default function Footer() {
       <div className='footer__left'>
         <h4>TALLER <span>M</span><span className="span__k">K</span> ®</h4>
         <div>
-          <small className="small__footer">Mecánica general avanzada</small>
+          <small className="small__footer">Mecánica General Avanzada</small>
           <small className="small__footer">Avenida Ernesto T. Lefevre. Frente a la estación Delta</small>
         </div>
       </div>
