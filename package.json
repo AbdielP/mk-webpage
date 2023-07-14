@@ -2,7 +2,7 @@
   "name": "mk-webpage",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://AbdielP.github.io/mk-webpage",
+  "homepage": "https://AbdielP.github.io/mk-webpage/build",
   "type": "module",
   "scripts": {
     "dev": "vite",
