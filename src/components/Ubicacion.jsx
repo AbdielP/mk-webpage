@@ -10,7 +10,7 @@ export default function Ubicacion() {
           <div className='div__info_ubicacion'>
             <p>Av. Ernesto T. Lefevre</p>
             <p>Al frente de la estación Delta</p>
-            <Button color='secondary' size='small' href='#' endIcon={<ArrowForwardSharpIcon /> } sx={{ color: '#FA5858',marginLeft: -.7 }}>
+            <Button color='secondary' size='small' href='#' endIcon={<ArrowForwardSharpIcon /> } sx={{ color: '#FA5858', margin: 0, padding: 0 }}>
             Ver ubicación
             </Button>
           </div>

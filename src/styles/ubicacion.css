@@ -9,9 +9,11 @@
 
 .div__ubicacion_info {
     position: absolute;
-    top: 6%;
+    top: 4%;
     right: 8%;
-    width: 300px;
+    /* width: 300px; */
+    width: 48%;
+    max-width: 500px;
     height: 180px;
     background-color: var(--background-color2);
     
@@ -38,6 +40,12 @@
     .div__ubicacion {
         background-image: url('../assets/images/ubicacion_desktop.PNG');
         height: 600px;
+    }
+
+    .div__ubicacion_info {
+        top: 10%;
+        right: 18%;
+        height: 250px;
     }
 
 }
