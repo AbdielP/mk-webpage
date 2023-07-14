@@ -37,6 +37,10 @@
         justify-content: space-between;
     }
 
+    .footer__left {
+        text-align: end;
+    }
+
     .small__phone {
         font-size: 1em;
     }
