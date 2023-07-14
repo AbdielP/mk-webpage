@@ -50,7 +50,7 @@ export default function Cards() {
           <p className='p__card_map text-center'>Av. Ernesto T. Lefevre</p>
           <p className='p__card_map text-center'>Al frente de la estación Delta</p>
           <div className='card_map'>
-            <Button variant='outlined' color='success' size='small' href='#' endIcon={<ArrowForwardSharpIcon />}>
+            <Button variant='outlined' color='success' size='small' href='https://goo.gl/maps/mBhxZVQfEYKh2CVQ7' target="_blank" endIcon={<ArrowForwardSharpIcon />}>
               Obtener ubicación
             </Button>
           </div>
@@ -63,7 +63,7 @@ export default function Cards() {
           <p className='card__p'>CONTACTO</p>
         </div>
         <div className='card__container text-center'>
-          <p className='p__card_phone'>+507 6490-0247</p>
+          <a href='tel:+5076490-0247' className='p__card_phone'>+507 6490-0247</a>
           <div className='div__contact'>
             <div className='div__contact_icons'>
               <WhatsAppIcon fontSize="inherit"/>

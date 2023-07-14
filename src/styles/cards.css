@@ -60,6 +60,7 @@
 .p__card_phone {
     font-size: 2em;
     font-weight: 500;
+    text-decoration: none;
     color: var(--color-red-mk);
 }
 
