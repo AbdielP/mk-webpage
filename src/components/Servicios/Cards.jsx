@@ -29,7 +29,7 @@ export default function Cards() {
         </div>
       </div>
 
-      <div className='card'>
+      <div className='card' id='horario'>
         <div className="card__header">
           <AccessTimeTwoToneIcon fontSize="large" sx={{ color: 'white'}} />
           <p className='card__p'>HORARIO</p>
@@ -41,7 +41,7 @@ export default function Cards() {
         </div>
       </div>
 
-      <div className='card'>
+      <div className='card' id='ubicacion'>
         <div className="card__header">
           <RoomTwoToneIcon fontSize="large" sx={{ color: 'white'}} />
           <p className='card__p'>UBICACIÓN</p>
@@ -57,7 +57,7 @@ export default function Cards() {
         </div>
       </div>
 
-      <div className='card'>
+      <div className='card' id='contacto'>
         <div className="card__header">
           <RoomTwoToneIcon fontSize="large" sx={{ color: 'white'}} />
           <p className='card__p'>CONTACTO</p>

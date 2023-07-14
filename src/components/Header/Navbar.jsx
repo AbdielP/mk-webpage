@@ -20,8 +20,9 @@ export default function Navbar() {
             <a href="#">Link 3</a>
           </div>
         </div>
-        <a className="a__menu" href="">Ubicación</a>
-        <a className="a__menu" href="">Contacto</a>
+        <a className="a__menu" href="#horario">Horario</a>
+        <a className="a__menu" href="#ubicacion">Ubicación</a>
+        <a className="a__menu" href="#contacto">Contacto</a>
       </div>
     </nav>
   )
