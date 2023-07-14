@@ -1,5 +1,19 @@
+.div__info_footer, .footer {
+    display: flex;
+}
+
 .footer {
+    flex-direction: column;
     background-color: var(--color-black-mk);
     color: var(--background-color);
-    height: 400px;
+    padding: .5em 1em;
+}
+
+.div__info_footer {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.h5__footer {
+    align-self: flex-end;
 }
