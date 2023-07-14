@@ -30,6 +30,8 @@
 
 .div__whatsapp {
    margin-left: .5em;
+   visibility: hidden;
+   
 }
 
 /* DROPDOWN */
@@ -73,6 +75,12 @@
 /* .dropdown:hover .dropbtn {
   background-color: #3e8e41;
 } */
+
+@media (min-width: 500px) {
+   .div__whatsapp {
+        visibility: visible;
+    } 
+}
 
 @media (min-width: 800px) { 
     .navbar {
