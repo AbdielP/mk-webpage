@@ -39,18 +39,17 @@
 @media (min-width: 800px) { 
     .div__ubicacion {
         background-image: url('../assets/images/ubicacion_desktop.PNG');
-        height: 600px;
-    }
-
-    .div__ubicacion_info {
-        top: 10%;
-        right: 18%;
-        height: 250px;
-        border-radius: .5em;
+        height: 430px;
     }
 
     .div__imgagen_local {
-        border-radius: .5em .5em 0 0;
+        height: 70%;
+    }
+
+    .div__ubicacion_info {
+        top: 5%;
+        right: 15%;
+        height: 250px;
     }
 
 }
