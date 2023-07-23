@@ -7,14 +7,14 @@
     position: absolute;
     align-items: center;
     justify-content: space-between;
-    background-color: var(--color-red-mk);
+    /* background-color: var(--color-red-mk); */
     top: 0;
     left: 0;
     width: 100%;
 }
 
 .a__whatsapp, .a__menu, .dropbtn {
-    color: var(--color-main);
+    /* color: var(--color-main); */
     text-decoration: none;
     letter-spacing: .09em;
     font-size: .78em;
