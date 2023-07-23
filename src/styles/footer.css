@@ -28,6 +28,10 @@
     font-size: .8em;
 }
 
+.span__k {
+    color: var(--color-red-mk);
+}
+
 @media (min-width: 800px) {  
     .footer {
         flex-direction: row-reverse;
