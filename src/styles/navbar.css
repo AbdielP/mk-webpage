@@ -1,4 +1,7 @@
-.navbar, .div__menu, .div__whatsapp, .dropbtn {
+.navbar,
+.div__menu,
+.div__whatsapp,
+.dropbtn {
     display: flex;
     align-items: center;
 }
@@ -6,32 +9,35 @@
 .navbar {
     position: absolute;
     align-items: center;
-    justify-content: space-between;
-    /* background-color: var(--color-red-mk); */
+    justify-content: flex-end;
     top: 0;
     left: 0;
     width: 100%;
 }
 
-.a__whatsapp, .a__menu, .dropbtn {
+.a__whatsapp,
+.a__menu,
+.dropbtn {
     /* color: var(--color-main); */
+    color: var(--color-grey);
     text-decoration: none;
     letter-spacing: .09em;
-    font-size: .78em;
+    font-size: .93em;
+    font-weight: 700;
 }
 
 .a__whatsapp {
     margin-left: .3em;
 }
 
-.a__menu, .dropbtn {
+.a__menu,
+.dropbtn {
     padding: .2em .7em;
 }
 
 .div__whatsapp {
-   margin-left: .5em;
-   visibility: hidden;
-   
+    display: none;
+
 }
 
 /* DROPDOWN */
@@ -47,15 +53,17 @@
     position: relative;
     display: inline-block;
 }
+
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-  }
+}
+
 /* Links inside the dropdown */
 .dropdown-content a {
     color: var(--color-black-mk);
@@ -63,12 +71,15 @@
     text-decoration: none;
     display: block;
 }
+
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
-  display: block;
+    display: block;
 }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
@@ -77,13 +88,27 @@
 } */
 
 @media (min-width: 500px) {
-   .div__whatsapp {
-        visibility: visible;
-    } 
+    .navbar {
+        padding: .3em;
+    }
 }
 
-@media (min-width: 800px) { 
+@media (min-width: 600px) {
+    
+    .div__whatsapp {
+        margin-left: .5em;
+        display: flex;
+    }
+
     .navbar {
+        justify-content: space-between;
+    }
+
+}
+
+@media (min-width: 800px) {
+    .navbar {
+        padding: 1em;
         font-size: 1.3em;
     }
 }
