@@ -1,0 +1,57 @@
+.div__servicio {
+    display: flex;
+    flex-direction: column;
+}
+
+.title_servicio {
+    font-family: 'Anton', sans-serif;
+    letter-spacing: .1em;
+    font-size: 1em;
+}
+
+.title_servicio, .descripcion_servicio {
+    padding: 1em;
+}
+
+.img__servicio {
+    width: 100%;
+}
+
+.bg_white {
+    background-color: var(--background-color2);
+}
+
+.bg_grey {
+    background-color: var(--background-color);
+}
+
+@media (min-width: 800px) { 
+    .div__servicio {
+        flex-direction: row;
+    }.reverse {
+        flex-direction: row-reverse;
+    }
+
+    .img__servicio {
+        width: 50%;
+        padding: 1em;
+    }
+
+    .title_servicio, .descripcion_servicio {
+        padding: 0;
+    }
+
+    .div__servicio_descripcion {
+        font-size: 1.3em;
+        display: flex;
+        margin: auto;
+        padding: 3em;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .descripcion_servicio {
+        max-width: 650px;
+        margin-top: 1.2em;
+    }
+}
