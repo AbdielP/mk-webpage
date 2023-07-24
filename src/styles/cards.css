@@ -103,7 +103,7 @@
         background-color: var(--background-color);
         position: absolute;
         flex-direction: row;
-        top: -6em;
+        top: -4.5em;
         left: 0;
         right: 0;
         margin-left: auto;

@@ -5,65 +5,52 @@
     position: relative;
 }
 
-.div__info, .div__servicios {
-    display: flex;
-} .div__info {
-    flex-direction: column;
-}
-
 .h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-family: 'Anton', sans-serif;
     letter-spacing: .08em;
     margin-top: 1em;
-    margin-bottom: .5em;
+    margin-bottom: 1em;
 }
 
-.p__servicios, .p__info {
+.p__servicios {
     text-align: justify;
     font-size: .9em;
+    letter-spacing: .15em;
+    line-height: 1.7em;
 }
 
 .hr {
-    margin: .5em 0;
+    margin: 2em 0;
 }
 
-.div__servicios {
-    gap: .5em;
-    margin-top: 1em;
-}
 
 @media (min-width: 800px) { 
 
     .section__servicios {
         padding: 5em;
+        padding-bottom: 2em;
     }
 
     .h3 {
         text-align: center;
         font-size: 2.7em;
+        margin-top: 3em;
     }
 
-    .div__servicios {
-        background-color: red;
-    }
-
-    .div__info, .div__servicios {
-        flex-direction: row;
-    }
-
-    .div__info {
+    .p__servicios {
+        letter-spacing: .18em;
         font-size: 1.1em;
-        justify-content: space-between;
-    }
-
-    .p__servicios, .p__info {
-        width: 45%;
-        letter-spacing: .1em;
+        max-width: 1200px;
+        text-align: center;
+        margin: auto;
     }
 }
 
-@media (min-width: 800px) { 
+@media (min-width: 1000px) { 
     .h3 {
-        margin-top: 3em;
+        margin-top: 5em;
     }
  }

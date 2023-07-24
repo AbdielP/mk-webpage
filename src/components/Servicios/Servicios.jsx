@@ -1,8 +1,10 @@
 import "../../styles/servicios.css";
 import Cards from "./Cards";
 import Servicio from "./Servicio";
+import BuildCircleOutlinedIcon from '@mui/icons-material/BuildCircleOutlined';
 
 import mantainance from "../../assets/images/mantainance.jpeg";
+import avanzada from "../../assets/images/avanzada.jpg";
 import engine from "../../assets/images/n55.jpg";
 
 export default function Servicios() {
@@ -10,19 +12,17 @@ export default function Servicios() {
     <>
       <section className="section__servicios">
         <Cards />
-        <h3 className="h3">NUESTROS SERVICIOS</h3>
-        <div className="div__info">
+        <h3 className="h3"><BuildCircleOutlinedIcon fontSize="inherit" sx={{marginRight: '.3em'}}/> NUESTROS SERVICIOS</h3>
+        {/* <div className="div__info"> */}
           <p className="p__servicios">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum vel
-            sint necessitatibus esse tempora velit provident corporis,
-            asperiores laborum earum.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae temporibus molestiae consectetur delectus quam libero quisquam incidunt tenetur. Sapiente, modi praesentium debitis dolorem qui id? Voluptates quo nulla laudantium harum nihil! At vero, nam minus fugiat illum laborum maiores? Quas omnis fugiat distinctio tempore voluptatibus quibusdam sit, unde veritatis tempora.
           </p>
           <hr className="hr" />
-          <p className="p__info">
+          {/* <p className="p__info">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt,
             magni?
-          </p>
-        </div>
+          </p> */}
+        {/* </div> */}
       </section>
 
       <Servicio
@@ -47,7 +47,7 @@ export default function Servicios() {
 
       <Servicio
         title={"MECÁNICA AVANZADA"}
-        img={engine}
+        img={avanzada}
         description={
           "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores molestias eligendi et, assumenda ex voluptate nesciunt aspernatur voluptas doloribus labore iste totam nostrum consectetur harum quas maiores ipsam dolorem corrupti?"
         }
