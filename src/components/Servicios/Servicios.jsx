@@ -29,7 +29,7 @@ export default function Servicios() {
           "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit nostrum at reprehenderit neque fugit cum?"
         }
         bg={"bg_white"}
-        rowdirection={""}
+        imgpadding={"white_padding"}
       />
 
       <Servicio
@@ -39,7 +39,7 @@ export default function Servicios() {
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus perspiciatis tenetur commodi, aliquid laudantium consequuntur ab similique assumenda sunt nulla"
         }
         bg={"bg_grey"}
-        rowdirection={"reverse"}
+        imgpadding={"grey_padding"}
       />
 
       <Servicio
@@ -49,7 +49,7 @@ export default function Servicios() {
           "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores molestias eligendi et, assumenda ex voluptate nesciunt aspernatur voluptas doloribus labore iste totam nostrum consectetur harum quas maiores ipsam dolorem corrupti?"
         }
         bg={"bg_white"}
-        rowdirection={""}
+        imgpadding={"white_padding"}
       />
     </>
   )
