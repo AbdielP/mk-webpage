@@ -9,11 +9,6 @@
     -moz-box-shadow: -1px 1px 5px 0px rgba(0, 0, 0, 0.60);
 }
 
-/* .container__cards, .card,
-.card_map, .div__contact {
-    width: 100%;
-} */
-
 .card__header {
     background-color: var(--color-red-mk);
     color: var(--background-color);
@@ -25,7 +20,6 @@
 .card__container {
     height: 160px;
     display: flex;
-    /* align-items: start; */
     flex-direction: column;
     justify-content: center;
     letter-spacing: .1em;

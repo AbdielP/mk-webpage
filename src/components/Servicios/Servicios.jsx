@@ -1,29 +1,26 @@
-import "../../styles/servicios.css";
-import Cards from "./Cards";
-import Servicio from "./Servicio";
-import BuildCircleOutlinedIcon from '@mui/icons-material/BuildCircleOutlined';
+import "../../styles/servicios.css"
+import Cards from "./Cards"
+import Marcas from "../Marcas/Marcas"
+import Servicio from "./Servicio"
+import BuildCircleOutlinedIcon from '@mui/icons-material/BuildCircleOutlined'
 
-import mantainance from "../../assets/images/mantainance.jpeg";
-import avanzada from "../../assets/images/avanzada.jpg";
-import engine from "../../assets/images/n55.jpg";
+import mantainance from "../../assets/images/mantainance.jpeg"
+import avanzada from "../../assets/images/avanzada.jpg"
+import engine from "../../assets/images/n55.jpg"
 
 export default function Servicios() {
   return (
     <>
       <section className="section__servicios">
         <Cards />
-        <h3 className="h3"><BuildCircleOutlinedIcon fontSize="inherit" sx={{marginRight: '.3em'}}/> NUESTROS SERVICIOS</h3>
-        {/* <div className="div__info"> */}
-          <p className="p__servicios">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae temporibus molestiae consectetur delectus quam libero quisquam incidunt tenetur. Sapiente, modi praesentium debitis dolorem qui id? Voluptates quo nulla laudantium harum nihil! At vero, nam minus fugiat illum laborum maiores? Quas omnis fugiat distinctio tempore voluptatibus quibusdam sit, unde veritatis tempora.
-          </p>
-          <hr className="hr" />
-          {/* <p className="p__info">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt,
-            magni?
-          </p> */}
-        {/* </div> */}
+        <h3 className="h3"><BuildCircleOutlinedIcon fontSize="inherit" sx={{ marginRight: '.3em' }} /> NUESTROS SERVICIOS</h3>
+        <p className="p__servicios">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae temporibus molestiae consectetur delectus quam libero quisquam incidunt tenetur. Sapiente, modi praesentium debitis dolorem qui id? Voluptates quo nulla laudantium harum nihil! At vero, nam minus fugiat illum laborum maiores? Quas omnis fugiat distinctio tempore voluptatibus quibusdam sit, unde veritatis tempora.
+        </p>
+        {/* <hr className="hr" /> */}
       </section>
+
+      <Marcas />
 
       <Servicio
         title={"MANTENIMIENTO COMPLETO"}
@@ -55,5 +52,5 @@ export default function Servicios() {
         rowdirection={""}
       />
     </>
-  );
+  )
 }
