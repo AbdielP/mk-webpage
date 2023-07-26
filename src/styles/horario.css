@@ -1,0 +1,29 @@
+.div__main_informacion, .info_telefono {
+    display: flex;
+}
+.div__main_informacion {
+    /* padding: 5em; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: space-between; */
+}
+
+.div__informacion {
+    /* border: 1px solid red; */
+    padding: 1em;
+    /* width: 50%; */
+}
+
+.div__sociales {
+    margin-top: 1em;
+}
+
+.info_titulo {
+    font-size: 1.5em;
+}
+
+.info_telefono {
+    font-size: 1em;
+    margin-top: 1em;
+    align-items: center;
+}
