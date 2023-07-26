@@ -2,16 +2,12 @@
     display: flex;
 }
 .div__main_informacion {
-    /* padding: 5em; */
-    /* flex-direction: column; */
-    /* align-items: center; */
-    /* justify-content: space-between; */
+    flex-direction: column;
+    letter-spacing: .08em;
 }
 
 .div__informacion {
-    /* border: 1px solid red; */
     padding: 1em;
-    /* width: 50%; */
 }
 
 .div__sociales {
@@ -19,11 +15,53 @@
 }
 
 .info_titulo {
-    font-size: 1.5em;
+    font-family: 'Anton', sans-serif;
+    margin-bottom: 1em;
+}
+
+.p__telefono {
+    color: var(--color-red-mk);
 }
 
 .info_telefono {
-    font-size: 1em;
-    margin-top: 1em;
     align-items: center;
+    text-transform: uppercase;
+}
+
+.p__info {
+    font-size: .9em;
+}
+
+@media (min-width: 500px) { 
+    .div__main_informacion {
+        flex-direction: row;
+    }
+    .div__informacion {
+        width: 50%;
+        padding: 3em;
+    }
+
+    .info_titulo {
+        letter-spacing: .15em;
+    }
+
+}
+
+@media (min-width: 800px) { 
+    .div__informacion {
+        padding: 6em;
+    }
+
+    .info_titulo {
+        font-size: 1.5em;
+    }
+
+    .div__sociales {
+        font-size: 1.4em;
+    }
+
+    .p__telefono, .info_telefono, .p__info {
+        font-size: 1.2em;
+    }
+
 }
