@@ -39,9 +39,9 @@
 }
 
 @media (min-width: 600px) { 
-    .div__bg {
+    /* .div__bg {
         padding: 1em 15em;
-    }
+    } */
 
     .img__marca {
         width: 5em;
@@ -53,5 +53,11 @@
     
     .less_width {
         width: 2.8em;
+    }
+}
+
+@media (min-width: 1200px) { 
+    .div__bg {
+        padding: 1em 15em;
     }
 }
