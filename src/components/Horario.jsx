@@ -14,7 +14,7 @@ export default function Horario() {
                <WhatsAppIcon  sx={{fontSize: '3em', color: '#25D366'}}/>
                <InstagramIcon  sx={{fontSize: '3em', color: '#d6249f'}}/>
                <FacebookIcon  sx={{fontSize: '3em', color: '#3b5998'}}/>
-            <p>Nuestras redes sociales.</p>
+              <p>Nuestras redes sociales.</p>
             </div>
         </div>
         <div className='div__informacion'>

@@ -1,8 +1,11 @@
-.div__main_informacion, .info_telefono {
+.div__main_informacion, .info_telefono, .div__informacion {
     display: flex;
 }
-.div__main_informacion {
+.div__main_informacion, .div__informacion {
     flex-direction: column;
+}
+
+.div__main_informacion {
     letter-spacing: .08em;
 }
 
@@ -49,7 +52,11 @@
 
 @media (min-width: 800px) { 
     .div__informacion {
+        border: 1px solid #fff;
         padding: 6em;
+        padding-left: 8em;
+        /* align-items: center; */
+        justify-content: center;
     }
 
     .info_titulo {
@@ -57,11 +64,11 @@
     }
 
     .div__sociales {
-        font-size: 1.4em;
+        font-size: .9em;
     }
 
     .p__telefono, .info_telefono, .p__info {
-        font-size: 1.2em;
+        font-size: 1em;
     }
 
 }
