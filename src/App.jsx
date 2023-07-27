@@ -10,8 +10,8 @@ function App() {
     <div className='app'>
       <Header />
       <Servicios />
-      <Horario />
       <Ubicacion />
+      <Horario />
       <Footer />
     </div>
   )

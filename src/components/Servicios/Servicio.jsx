@@ -6,7 +6,7 @@ export default function Servicio({ title, img, description, bg, imgpadding }) {
     <div className={`div__servicio ${bg}`}>
       <img className={`img__servicio ${imgpadding}`} src={img} alt="auto servicio" />
       <div className="div__servicio_descripcion">
-        <h4 className="title_servicio">{title}</h4>
+        <h4 className="subtitulo">{title}</h4>
         <p className="descripcion_servicio">{description}</p>
       </div>
     </div>
