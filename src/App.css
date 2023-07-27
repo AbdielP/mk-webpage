@@ -16,3 +16,9 @@
 .text-center {
   text-align: center;
 }
+
+.subtitulo {
+  font-family: 'Anton', sans-serif;
+  letter-spacing: .1em;
+  font-size: 1em;
+}

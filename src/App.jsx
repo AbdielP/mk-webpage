@@ -11,7 +11,7 @@ function App() {
       <Header />
       <Servicios />
       <Horario />
-      {/* <Ubicacion /> */}
+      <Ubicacion />
       <Footer />
     </div>
   )

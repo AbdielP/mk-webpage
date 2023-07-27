@@ -1,4 +1,30 @@
+.container__ubicacion {
+    display: flex;
+    /* flex-direction: column; */
+    width: 100%;
+    background-color: var(--background-color2);
+    background-image: url('../assets/images/local_foto.jpg');
+}
+
+.div__info {
+    width: 30%;
+    padding: 3em;
+}.div__mapa {
+    width: 70%;
+    padding: 1em;
+}
+
+.p__ubicacion {
+    margin-top: 2em;
+}
+
 .iframe {
+    width: 100%;
+    border: none;
+    height: 400px;
+}
+
+/* .iframe {
     width: 100%;
     border: none;
     height: 400px;
@@ -17,7 +43,6 @@
     position: absolute;
     top: 4%;
     right: 8%;
-    /* width: 300px; */
     width: 49%;
     max-width: 500px;
     height: 180px;
@@ -58,4 +83,4 @@
         height: 250px;
     }
 
-}
+} */
