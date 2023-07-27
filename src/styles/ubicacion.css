@@ -1,17 +1,12 @@
 .container__ubicacion {
     display: flex;
-    /* flex-direction: column; */
-    width: 100%;
+    flex-direction: column;
     background-color: var(--background-color2);
-    background-image: url('../assets/images/local_foto.jpg');
 }
 
 .div__info {
-    width: 30%;
-    padding: 3em;
-}.div__mapa {
-    width: 70%;
     padding: 1em;
+    height: 100%;
 }
 
 .p__ubicacion {
@@ -24,63 +19,27 @@
     height: 400px;
 }
 
-/* .iframe {
-    width: 100%;
-    border: none;
-    height: 400px;
-}
-
-.div__ubicacion {
-    position: relative;
-    background-image: url('../assets/images/ubicacion_small.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 400px;
-}
-
-.div__ubicacion_info {
-    position: absolute;
-    top: 4%;
-    right: 8%;
-    width: 49%;
-    max-width: 500px;
-    height: 180px;
-    background-color: var(--background-color2);
-    
-    box-shadow: -1px 1px 5px 0px rgba(0, 0, 0, 0.255);
-    -webkit-box-shadow: -1px 1px 5px 0px rgba(0, 0, 0, 0.255);
-    -moz-box-shadow: -1px 1px 5px 0px rgba(0, 0, 0, 0.255);
-}
-
-.div__imgagen_local {
-    height: 60%;
-    background-image: url('../assets/images/local_foto.jpg');
-    border-bottom: 2px solid var(--color-red-mk);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.div__info_ubicacion {
-    font-size: .8em;
-    padding: .6em;
-}
-
-@media (min-width: 800px) { 
-    .div__ubicacion {
-        background-image: url('../assets/images/ubicacion_desktop.PNG');
-        height: 430px;
+@media (min-width: 800px) {
+    .container__ubicacion {
+        flex-direction: row;
     }
 
-    .div__imgagen_local {
-        height: 70%;
+
+    .div__info {
+        width: 30%;
+        height: initial;
+        margin: 1em .5em;
+        /* color: var(--background-color2); */
+        
+        /* background-image: url('../assets/images/local_foto.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; */
     }
 
-    .div__ubicacion_info {
-        top: 5%;
-        right: 15%;
-        height: 250px;
+    .div__mapa {
+        width: 70%;
+        padding: 1em;
     }
 
-} */
+}

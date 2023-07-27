@@ -52,10 +52,6 @@
 
 @media (min-width: 800px) { 
     .div__informacion {
-        border: 1px solid #fff;
-        padding: 3.5em 6em;
-        padding-left: 8em;
-        /* align-items: center; */
         justify-content: center;
     }
 
@@ -71,4 +67,11 @@
         font-size: 1em;
     }
 
+
+    @media (min-width: 1000px) { 
+        .div__informacion {
+            padding: 3.5em 6em;
+            padding-left: 8em;
+        }
+    }
 }
