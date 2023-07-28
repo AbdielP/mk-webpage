@@ -9,9 +9,9 @@
     letter-spacing: .08em;
 }
 
-.div__informacion {
+/* .div__informacion {
     padding: 1em;
-}
+} */
 
 .div__sociales {
     margin-top: 1em;
@@ -34,10 +34,10 @@
     .div__main_informacion {
         flex-direction: row;
     }
-    .div__informacion {
+    /* .div__informacion {
         width: 50%;
         padding: 3em;
-    }
+    } */
 }
 
 @media (min-width: 800px) { 
@@ -52,12 +52,12 @@
     .p__telefono, .info_telefono, .p__info {
         font-size: 1em;
     }
-
-
-    @media (min-width: 1000px) { 
-        .div__informacion {
-            padding: 3.5em 6em;
-            padding-left: 8em;
-        }
-    }
 }
+
+
+/* @media (min-width: 1000px) { 
+    .div__informacion {
+        padding: 3.5em 6em;
+        padding-left: 8em;
+    }
+} */

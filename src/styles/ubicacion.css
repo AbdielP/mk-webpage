@@ -29,12 +29,12 @@
         width: 30%;
         height: initial;
         margin: 1em .5em;
-        /* color: var(--background-color2); */
         
-        background-image: url('../assets/images/local_foto.jpg');
+        /* color: var(--background-color2); */  
+        /* background-image: url('../assets/images/local_foto.jpg');
         background-repeat: no-repeat;
         background-position: center;
-        background-size: cover;
+        background-size: cover; */
     }
 
     .div__mapa {
