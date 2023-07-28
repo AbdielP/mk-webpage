@@ -10,13 +10,50 @@
 }
 
 .p__ubicacion {
-    margin-top: 2em;
+    /* margin-top: 2em; */
+    margin-bottom: 1.5em;
 }
 
 .iframe {
     width: 100%;
     border: none;
     height: 400px;
+}
+
+/* HORARIO & UBICACIÓN */
+.div__main_informacion, .info_telefono, .div__informacion {
+    display: flex;
+}
+.div__main_informacion, .div__informacion {
+    flex-direction: column;
+}
+
+.div__main_informacion {
+    letter-spacing: .08em;
+}
+
+.div__sociales, .div__informacion {
+    margin-top: 1em;
+}
+
+.p__telefono {
+    color: var(--color-red-mk);
+}
+
+.info_telefono {
+    align-items: center;
+    /* text-transform: uppercase; */
+}
+
+.p__info {
+    font-size: .9em;
+}
+
+
+@media (min-width: 500px) { 
+    .div__main_informacion {
+        flex-direction: row;
+    }
 }
 
 @media (min-width: 800px) {
@@ -42,4 +79,17 @@
         padding: 1em;
     }
 
+    /* HORARIO & UBICACIÓN */
+    .div__informacion {
+        font-size: .9em;
+        justify-content: center;
+    }
+
+    .div__sociales {
+        font-size: .9em;
+    }
+
+    .p__telefono, .info_telefono, .p__info {
+        font-size: 1em;
+    }
 }

@@ -14,8 +14,8 @@ export default function Ubicacion() {
 
         <div className='div__informacion'>
             <h4 className='subtitulo'>CONTACTANOS</h4>
-            <p className='p__telefono'>+507 6490-0247</p>
-            <h5 className='info_telefono'>Teléfono y Whatsapp</h5>
+            {/* <p className='p__telefono'>+507 6490-0247</p> */}
+            <p className='p__telefono'>+507 6490-0247<span className='info_telefono'> Teléfono y Whatsapp</span></p>
             <div className='div__sociales'>
                <WhatsAppIcon  sx={{fontSize: '3em', color: '#25D366'}}/>
                <InstagramIcon  sx={{fontSize: '3em', color: '#d6249f'}}/>

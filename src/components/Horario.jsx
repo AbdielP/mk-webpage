@@ -1,4 +1,4 @@
-import '../styles/horario.css'
+// import '../styles/horario.css'
 import InstagramIcon from '@mui/icons-material/Instagram'
 import WhatsAppIcon from '@mui/icons-material/WhatsApp'
 import FacebookIcon from '@mui/icons-material/Facebook'
