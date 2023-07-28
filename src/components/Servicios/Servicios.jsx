@@ -1,24 +1,40 @@
-import "../../styles/servicios.css"
-import Cards from "./Cards"
-import Marcas from "../Marcas/Marcas"
-import Servicio from "./Servicio"
-import BuildCircleOutlinedIcon from '@mui/icons-material/BuildCircleOutlined'
+import "../../styles/servicios.css";
+import Cards from "./Cards";
+import Marcas from "../Marcas/Marcas";
+import Servicio from "./Servicio";
+import BuildCircleOutlinedIcon from "@mui/icons-material/BuildCircleOutlined";
 
-import mantainance from "../../assets/images/mantainance.jpeg"
+import mantainance from "../../assets/images/mantainance.jpeg";
 // import transmision from "../../assets/images/transmision.png"
-import avanzada from "../../assets/images/avanzada.jpg"
-import engine from "../../assets/images/n55.jpg"
+import avanzada from "../../assets/images/avanzada.jpg";
+import engine from "../../assets/images/n55.jpg";
 
 export default function Servicios() {
   return (
     <>
       <section className="section__servicios">
         <Cards />
-        <h3 className="h3"><BuildCircleOutlinedIcon fontSize="inherit" sx={{ marginRight: '.3em' }} /> NUESTROS SERVICIOS</h3>
+        <h3 className="h3">
+          <BuildCircleOutlinedIcon
+            fontSize="inherit"
+            sx={{ marginRight: ".3em" }}
+          />{" "}
+          NUESTROS SERVICIOS
+        </h3>
         <p className="p__servicios">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae temporibus molestiae consectetur delectus quam libero quisquam incidunt tenetur. Sapiente, modi praesentium debitis dolorem qui id? Voluptates quo nulla laudantium harum nihil! At vero, nam minus fugiat illum laborum maiores? Quas omnis fugiat distinctio tempore voluptatibus quibusdam sit, unde veritatis tempora.
+          Somos un <span className="span_rojo">taller de mecánica multimarca en Panamá</span>. Nuestro
+          taller abarca una amplia gama de servicios, desde <b>mantenimiento
+          preventivo</b>, <b>cambios de aceite</b>, <b>inspección y reemplazo de filtros</b>,
+          <b> revisión del sistema de frenos y suspensión</b>, <b>diagnotico avanzado</b>,
+          <b> servicios de reparación</b> tanto para averías menores como para
+          problemas más complejos y <a className="span_rojo" href="">más servicios</a>.
         </p>
-        {/* <hr className="hr" /> */}
+        <hr className="hr" />
+
+        <p className="p__servicios">
+          Trabajamos con <span className="span_rojo">todas las marcas de vehiculos en Panamá</span>, como Toyota,
+          Nissan, BMW, Hyundai, Kia, Audi, Porsche, Mercedez Benz y más...
+        </p>
       </section>
 
       <Marcas />
@@ -27,7 +43,7 @@ export default function Servicios() {
         title={"MANTENIMIENTO COMPLETO"}
         img={mantainance}
         description={
-          "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit nostrum at reprehenderit neque fugit cum?"
+          "El mantenimiento completo para tu carro es un servicio integral y detallado que abarca todas las áreas vitales de tu vehículo para garantizar su óptimo rendimiento, seguridad y durabilidad. Nuestro equipo de mecánicos se encargará de llevar a cabo una revisión exhaustiva de todos los componentes y sistemas para identificar posibles problemas y realizar las correcciones necesarias."
         }
         bg={"bg_white"}
         imgpadding={"white_padding"}
@@ -54,5 +70,5 @@ export default function Servicios() {
         imgpadding={"white_padding"}
       />
     </>
-  )
+  );
 }
