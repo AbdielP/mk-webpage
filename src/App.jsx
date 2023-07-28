@@ -1,7 +1,6 @@
 import './App.css'
 import Footer from './components/Footer'
 import Header from './components/Header/Header'
-import Horario from './components/Horario'
 import Servicios from './components/Servicios/Servicios'
 import Ubicacion from './components/Ubicacion'
 
@@ -11,7 +10,6 @@ function App() {
       <Header />
       <Servicios />
       <Ubicacion />
-      {/* <Horario /> */}
       <Footer />
     </div>
   )
