@@ -6,10 +6,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
+    background-color: var(--color--background2);
+    background-image: url('../assets/images/m2.png');
+    background-size: 75%;
+    background-position: right;
+    background-repeat: no-repeat;
 }
 
 .header__div {
-    /* color: var(--color-main); */
     text-align: center;
 }
 
