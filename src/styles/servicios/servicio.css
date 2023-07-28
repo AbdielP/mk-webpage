@@ -28,11 +28,19 @@
         flex-direction: row-reverse;
     }
 
-    .bg_test {
-        background-image: url('../../assets/images/transmision.png');
+    .bg_img_fondo {
         background-size: 50%;
-        background-position: left 1em bottom 1em;
+        background-position: left 1em center;
         background-repeat: no-repeat; 
+    }
+
+    .bg_transmision {
+        background-image: url('../../assets/images/transmision.png');
+    }
+
+    .bg_toolbox {
+        background-image: url('../../assets/images/toolbox.png');
+        background-size: 45%;
     }
 
     .img__servicio {
