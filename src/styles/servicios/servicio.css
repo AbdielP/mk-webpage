@@ -3,13 +3,7 @@
     flex-direction: column;
 }
 
-/* .title_servicio {
-    font-family: 'Anton', sans-serif;
-    letter-spacing: .1em;
-    font-size: 1em;
-} */
-
-.descripcion_servicio {
+.div__servicio_descripcion {
     padding: 1em;
 }
 
@@ -53,10 +47,6 @@
         /* -webkit-filter: blur(3px); */
     }
 
-    .descripcion_servicio {
-        padding: 0;
-    }
-
     .div__servicio_descripcion {
         /* border: 1px solid var(--color-red-mk); */
         font-size: 1.3em;
@@ -68,6 +58,7 @@
     }
 
     .descripcion_servicio {
+        padding: 0;
         max-width: 650px;
         margin-top: 1.2em;
     }
