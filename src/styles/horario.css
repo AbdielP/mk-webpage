@@ -17,11 +17,6 @@
     margin-top: 1em;
 }
 
-.info_titulo {
-    font-family: 'Anton', sans-serif;
-    margin-bottom: 1em;
-}
-
 .p__telefono {
     color: var(--color-red-mk);
 }
@@ -43,20 +38,11 @@
         width: 50%;
         padding: 3em;
     }
-
-    .info_titulo {
-        letter-spacing: .15em;
-    }
-
 }
 
 @media (min-width: 800px) { 
     .div__informacion {
         justify-content: center;
-    }
-
-    .info_titulo {
-        font-size: 1.5em;
     }
 
     .div__sociales {

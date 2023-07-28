@@ -5,6 +5,7 @@ import Servicio from "./Servicio"
 import BuildCircleOutlinedIcon from '@mui/icons-material/BuildCircleOutlined'
 
 import mantainance from "../../assets/images/mantainance.jpeg"
+// import transmision from "../../assets/images/transmision.png"
 import avanzada from "../../assets/images/avanzada.jpg"
 import engine from "../../assets/images/n55.jpg"
 
@@ -39,6 +40,7 @@ export default function Servicios() {
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus perspiciatis tenetur commodi, aliquid laudantium consequuntur ab similique assumenda sunt nulla"
         }
         bg={"bg_grey"}
+        fondo={"bg_test"}
         imgpadding={"grey_padding"}
       />
 

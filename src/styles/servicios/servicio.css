@@ -3,13 +3,12 @@
     flex-direction: column;
 }
 
-.title_servicio {
+/* .title_servicio {
     font-family: 'Anton', sans-serif;
     letter-spacing: .1em;
     font-size: 1em;
-}
+} */
 
-.title_servicio,
 .descripcion_servicio {
     padding: 1em;
 }
@@ -35,6 +34,13 @@
         flex-direction: row-reverse;
     }
 
+    .bg_test {
+        background-image: url('../../assets/images/transmision.png');
+        background-size: 50%;
+        background-position: left 1em bottom 1em;
+        background-repeat: no-repeat; 
+    }
+
     .img__servicio {
         width: 45%;
         height: 45%;
@@ -47,7 +53,6 @@
         /* -webkit-filter: blur(3px); */
     }
 
-    .title_servicio,
     .descripcion_servicio {
         padding: 0;
     }
