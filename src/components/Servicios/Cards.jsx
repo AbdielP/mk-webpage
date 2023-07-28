@@ -1,10 +1,11 @@
 import '../../styles/cards.css'
 import BuildCircleTwoToneIcon from '@mui/icons-material/BuildCircleTwoTone'
 import ArrowForwardSharpIcon from '@mui/icons-material/ArrowForwardSharp'
-import AccessTimeTwoToneIcon from '@mui/icons-material/AccessTimeTwoTone'
+import PermPhoneMsgIcon from '@mui/icons-material/PermPhoneMsg'
 import RoomTwoToneIcon from '@mui/icons-material/RoomTwoTone'
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone'
 import WhatsAppIcon from '@mui/icons-material/WhatsApp'
+import ScheduleIcon from '@mui/icons-material/Schedule'
 import Button from '@mui/material/Button'
 
 export default function Cards() {
@@ -31,7 +32,7 @@ export default function Cards() {
 
       <div className='card' id='horario'>
         <div className="card__header">
-          <AccessTimeTwoToneIcon fontSize="large" sx={{ color: 'white'}} />
+          <ScheduleIcon fontSize="large" sx={{ color: 'white'}} />
           <p className='card__p'>HORARIO</p>
         </div>
         <div className='card__container text-center'>
@@ -59,7 +60,7 @@ export default function Cards() {
 
       <div className='card' id='contacto'>
         <div className="card__header">
-          <RoomTwoToneIcon fontSize="large" sx={{ color: 'white'}} />
+          <PermPhoneMsgIcon fontSize="large" sx={{ color: 'white'}} />
           <p className='card__p'>CONTACTO</p>
         </div>
         <div className='card__container text-center'>
