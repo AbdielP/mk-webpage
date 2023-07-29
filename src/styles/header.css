@@ -9,7 +9,7 @@
     
     background-color: var(--color--background2);
     background-image: url('../assets/images/m2.png');
-    background-size: 75%;
+    background-size: contain;
     background-position: right bottom;
     background-repeat: no-repeat;
 }
@@ -29,6 +29,7 @@
         height: 450px;
         align-items: start;
         justify-content: flex-start;
+        background-size: 75%;
     }
 
     .header__div {
