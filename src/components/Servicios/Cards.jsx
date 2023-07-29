@@ -10,7 +10,7 @@ import Button from '@mui/material/Button'
 
 export default function Cards() {
   return (
-    <div className='container__cards'>
+    <div className='container__cards animate__animated animate__fadeInUp'>
 
       <div className='card'>
         <div className="card__header">

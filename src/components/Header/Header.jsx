@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <header className="header">
       <Navbar />
-      <div className="header__div">
+      <div className="header__div animate__animated animate__fadeIn animate__delay-1s">
         <img className="img__logo" src={logomk} alt="logo mk" />
       </div>
     </header>
