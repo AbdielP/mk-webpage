@@ -15,7 +15,7 @@ export default function ListaServicios() {
           alt="mantenimiento completo"
         />
         <div className="div__servicio_descripcion">
-          <h4 className="subtitulo span_rojo">MANTENIMIENTO COMPLETO</h4>
+          <h4 className="subtitulo span_rojo" id="mantenimiento-completo">MANTENIMIENTO COMPLETO</h4>
           <p className="descripcion_servicio">
             El mantenimiento completo para tu carro es un servicio integral y
             detallado que abarca todas las áreas vitales de tu vehículo para
@@ -39,7 +39,7 @@ export default function ListaServicios() {
           src={engine}
           alt="mecánica general"
         />
-        <div className="div__servicio_descripcion">
+        <div className="div__servicio_descripcion" id="mecanica-general">
           <h4 className="subtitulo span_rojo">MECÁNICA GENERAL</h4>
           <p className="descripcion_servicio">
             Nuestro servicio de mecánica general está diseñado para mantener tu
@@ -69,7 +69,7 @@ export default function ListaServicios() {
           alt="mecánica avanzada"
         />
         <div className="div__servicio_descripcion">
-          <h4 className="subtitulo span_rojo">MECÁNICA AVANZADA</h4>
+          <h4 className="subtitulo span_rojo" id="mecanica-avanzada">MECÁNICA AVANZADA</h4>
           <p className="descripcion_servicio">
           Ofrecemos un servicio de mecánica avanzada enfocado en resolver problemas complejos en cuaquier vehículo, asegurando que tu automóvil esté en las mejores condiciones posibles. Confía en nosotros para mantener y reparar tu vehículo con precisión y eficiencia utilizando técnicas y herramientas de vanguardia en la industria automotriz. Nuestra meta es proporcionar soluciones confiables y satisfacer las necesidades de nuestros clientes más exigentes.
           </p>
@@ -83,7 +83,7 @@ export default function ListaServicios() {
           alt="recogida de vehiculo"
         />
         <div className="div__servicio_descripcion">
-          <h4 className="subtitulo span_rojo">ELECTROMECÁNICA</h4>
+          <h4 className="subtitulo span_rojo" id="electromecanica">ELECTROMECÁNICA</h4>
           <p className="descripcion_servicio">
           Contamos con un equipo de electromecánicos capacitados que cuentan con la habilidad de diagnosticar y resolver una amplia variedad de fallas mecánicas y electrónicas en tu vehículo. Nuestro servicio de electromecánica está diseñado para brindarte soluciones completas y especializadas en vehículos modernos, donde la mecánica y la electrónica se entrelazan.
           </p>
@@ -97,7 +97,7 @@ export default function ListaServicios() {
           alt="recogida de vehículo"
         />
         <div className="div__servicio_descripcion">
-          <h4 className="subtitulo span_rojo">ASISTENCIA A DOMICILIO Y RECOGIDA DE VEHICULO</h4>
+          <h4 className="subtitulo span_rojo" id="asistencia-remota">ASISTENCIA A DOMICILIO Y RECOGIDA DE VEHICULO</h4>
           <p className="descripcion_servicio">
           Nuestro servicio de recogida de vehículo es una conveniente y eficiente solución para nuestros clientes que requieren llevar su automóvil a nuestro taller para realizar servicios de mantenimiento, reparaciones u otras necesidades relacionadas con su vehículo. Con este servicio, nos encargamos de recoger tu automóvil en la ubicación que nos indiques y llevarlo a nuestro taller, evitándote la molestia de trasladarlo tú mismo.
           </p>

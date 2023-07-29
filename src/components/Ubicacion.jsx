@@ -8,10 +8,10 @@ export default function Ubicacion() {
     <div className='container__ubicacion'>
       <div className='div__info'>
         <h4 className='subtitulo'>UBICACIÓN</h4>
-        <p className='p__ubicacion'>Estamos ubicados en la Avenida Ernesto T. Lefevre, Al frente de la estación Delta.</p>
+        <p className='p__ubicacion' id='ubicacion'>Estamos ubicados en la Avenida Ernesto T. Lefevre, Al frente de la estación Delta.</p>
 
         <div className='div__informacion'>
-            <h4 className='subtitulo'>CONTACTANOS</h4>
+            <h4 className='subtitulo' id='contacto'>CONTACTANOS</h4>
             {/* <p className='p__telefono'>+507 6490-0247</p> */}
             <p className='p__telefono'>+507 6490-0247<span className='info_telefono'> Teléfono y Whatsapp</span></p>
             <div className='div__sociales'>
@@ -23,7 +23,7 @@ export default function Ubicacion() {
         </div>
         
         <div className='div__informacion'>
-            <h4 className='subtitulo'>HORARIO</h4>
+            <h4 className='subtitulo' id='horario'>HORARIO</h4>
             <p className='p__info'>Lunes a Viernes: <span className='span__horario'>08:00 a.m - 5:00 p.m</span></p>
             <p className='p__info'>Sábados: <span className='span__horario'>8:00 a.m - 1:00 p.m</span></p>
             <p className='p__info'>Domingo: <span className='span__horario'>Cerrado</span></p>

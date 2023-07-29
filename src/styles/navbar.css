@@ -37,7 +37,10 @@
 
 .div__whatsapp {
     display: none;
+}
 
+.dropdown-content {
+    font-size: .75em;
 }
 
 /* DROPDOWN */

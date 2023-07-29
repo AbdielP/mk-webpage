@@ -25,13 +25,13 @@ export default function Cards() {
             <li>Electromecánica</li>
             {/* <li>Asistencia a domicilio y recogida de vehículo</li> */}
           </ol>
-          <Button className='btn_leer' href='#' endIcon={<ArrowForwardSharpIcon />} sx={{ color: '#FA5858' }}>
+          <Button className='btn_leer' href='#nuestros-servicios' endIcon={<ArrowForwardSharpIcon />} sx={{ color: '#FA5858' }}>
             Leer más
           </Button>
         </div>
       </div>
 
-      <div className='card' id='horario'>
+      <div className='card'>
         <div className="card__header">
           <ScheduleIcon fontSize="large" sx={{ color: 'white'}} />
           <p className='card__p'>HORARIO</p>
@@ -43,7 +43,7 @@ export default function Cards() {
         </div>
       </div>
 
-      <div className='card' id='ubicacion'>
+      <div className='card'>
         <div className="card__header">
           <RoomTwoToneIcon fontSize="large" sx={{ color: 'white'}} />
           <p className='card__p'>UBICACIÓN</p>
@@ -59,7 +59,7 @@ export default function Cards() {
         </div>
       </div>
 
-      <div className='card' id='contacto'>
+      <div className='card'>
         <div className="card__header">
           <PermPhoneMsgIcon fontSize="large" sx={{ color: 'white'}} />
           <p className='card__p'>CONTACTO</p>

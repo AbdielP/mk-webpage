@@ -15,9 +15,11 @@ export default function Navbar() {
         <div class="dropdown">
           <button class="dropbtn"><ArrowDropDownIcon fontSize="medium"></ArrowDropDownIcon>Servicios</button>
           <div class="dropdown-content">
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
+            <a href="#mantenimiento-completo">Mantenimiento completo</a>
+            <a href="#mecanica-general">Mecánica general</a>
+            <a href="#mecanica-avanzada">Mecánica avanzada</a>
+            <a href="#electromecanica">Electromecánica</a>
+            <a href="#asistencia-remota">Asistencia remota</a>
           </div>
         </div>
         <a className="a__menu" href="#horario">Horario</a>

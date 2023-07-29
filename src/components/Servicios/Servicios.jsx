@@ -16,7 +16,7 @@ export default function Servicios() {
           />
           NUESTROS SERVICIOS
         </h3>
-        <p className="p__servicios">
+        <p className="p__servicios" id="nuestros-servicios">
           Somos un <span className="span_rojo">taller de mecánica multimarca en Panamá</span>. Nuestro
           taller abarca una amplia gama de servicios, desde <b>mantenimiento
           preventivo</b>, <b>cambios de aceite</b>, <b>inspección y reemplazo de filtros</b>,
