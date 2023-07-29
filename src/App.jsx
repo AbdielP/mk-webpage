@@ -16,5 +16,3 @@ function App() {
 }
 
 export default App
-// https://themes.vamtam.com/?theme=auto
-// https://www.pngegg.com/en/search?q=mechanics
