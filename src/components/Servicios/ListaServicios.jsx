@@ -10,7 +10,7 @@ export default function ListaServicios() {
     <>
       <div className="div__servicio bg_white">
         <img
-          className="img__servicio white_padding"
+          className="img__servicio"
           src={mantainance}
           alt="mantenimiento completo"
         />
@@ -35,7 +35,7 @@ export default function ListaServicios() {
 
       <div className="div__servicio bg_grey bg_img_fondo bg_transmision">
         <img
-          className="img__servicio grey_padding"
+          className="img__servicio"
           src={engine}
           alt="mecánica general"
         />
@@ -64,7 +64,7 @@ export default function ListaServicios() {
 
       <div className="div__servicio bg_white">
         <img
-          className="img__servicio white_padding"
+          className="img__servicio"
           src={avanzada}
           alt="mecánica avanzada"
         />
@@ -78,7 +78,7 @@ export default function ListaServicios() {
 
       <div className="div__servicio bg_grey bg_toolbox bg_img_fondo">
         <img
-          className="img__servicio grey_padding"
+          className="img__servicio"
           src={scanner}
           alt="recogida de vehiculo"
         />
@@ -92,7 +92,7 @@ export default function ListaServicios() {
 
       <div className="div__servicio bg_white">
         <img
-          className="img__servicio white_padding"
+          className="img__servicio"
           src={recogida}
           alt="recogida de vehículo"
         />

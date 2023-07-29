@@ -16,6 +16,10 @@
     margin: .5em;
 }
 
+.descripcion_servicio {
+    margin-top: .6em;
+}
+
 .bg_white {
     background-color: var(--background-color2);
 }
@@ -82,13 +86,5 @@
         width: 45%;
         height: 45%;
     }
-    
-    /* .grey_padding {
-        margin: 4em 10em 4em 0;
-    }
-
-    .white_padding {
-        margin: 4em 0 4em 10em;
-    } */
 
 }
