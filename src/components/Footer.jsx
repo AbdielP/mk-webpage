@@ -1,8 +1,8 @@
-import Link from '@mui/material/Link';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone'
 import InstagramIcon from '@mui/icons-material/Instagram'
 import WhatsAppIcon from '@mui/icons-material/WhatsApp'
 import FacebookIcon from '@mui/icons-material/Facebook'
+import Link from '@mui/material/Link'
 import '../styles/footer.css'
 
 export default function Footer() {

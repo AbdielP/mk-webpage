@@ -1,6 +1,8 @@
 import InstagramIcon from '@mui/icons-material/Instagram'
 import WhatsAppIcon from '@mui/icons-material/WhatsApp'
 import FacebookIcon from '@mui/icons-material/Facebook'
+import Link from '@mui/material/Link'
+
 import '../styles/ubicacion.css'
 
 export default function Ubicacion() {
@@ -15,9 +17,9 @@ export default function Ubicacion() {
             {/* <p className='p__telefono'>+507 6490-0247</p> */}
             <p className='p__telefono'>+507 6490-0247<span className='info_telefono'> Teléfono y Whatsapp</span></p>
             <div className='div__sociales'>
-               <WhatsAppIcon  sx={{fontSize: '3em', color: '#25D366'}}/>
-               <InstagramIcon  sx={{fontSize: '3em', color: '#d6249f'}}/>
-               <FacebookIcon  sx={{fontSize: '3em', color: '#3b5998'}}/>
+               <Link href='https://wa.me/50764900247' target='_blank' sx={{color: '#25D366'}}><WhatsAppIcon sx={{fontSize: '3em'}}/></Link>
+               <Link href="https://www.instagram.com/tallermkpty/?hl=en" target='_blank' sx={{color: '#d6249f'}}><InstagramIcon sx={{fontSize: '3em'}}/></Link>
+               <Link href="https://www.facebook.com/tallermkpty" target='_blank' sx={{color: '#3b5998'}}><FacebookIcon sx={{fontSize: '3em'}}/></Link>
               <p>Nuestras redes sociales.</p>
             </div>
         </div>
