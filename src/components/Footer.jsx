@@ -1,5 +1,7 @@
+import Link from '@mui/material/Link';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone'
 import InstagramIcon from '@mui/icons-material/Instagram'
+import WhatsAppIcon from '@mui/icons-material/WhatsApp'
 import FacebookIcon from '@mui/icons-material/Facebook'
 import '../styles/footer.css'
 
@@ -16,8 +18,9 @@ export default function Footer() {
 
       <div className='footer__right'>
         <div className='div__social'>
-          <InstagramIcon />
-          <FacebookIcon />
+          <Link href='https://wa.me/50764900247' target='_blank' sx={{color: 'var(--background-color2)'}}><WhatsAppIcon /></Link>
+          <Link href="https://www.instagram.com/tallermkpty/?hl=en" target='_blank' sx={{color: 'var(--background-color2)'}}><InstagramIcon /></Link>
+          <Link href="https://www.facebook.com/tallermkpty" target='_blank' sx={{color: 'var(--background-color2)'}}><FacebookIcon /></Link>
           <small className='small__phone'><LocalPhoneIcon fontSize="inherit" sx={{marginRight: '.3em'}}/> +507 6490-0247</small>
         </div>
       </div>
