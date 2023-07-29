@@ -10,7 +10,7 @@
     background-color: var(--color--background2);
     background-image: url('../assets/images/m2.png');
     background-size: 75%;
-    background-position: right;
+    background-position: right bottom;
     background-repeat: no-repeat;
 }
 
