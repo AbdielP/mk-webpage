@@ -1,6 +1,7 @@
 .div__servicio {
     display: flex;
     flex-direction: column;
+    color: #000;
 }
 
 .div__servicio_descripcion {
@@ -9,6 +10,10 @@
 
 .img__servicio {
     width: 100%;
+}
+
+.ol__servicios {
+    margin: .5em;
 }
 
 .bg_white {
@@ -74,16 +79,16 @@
 
 @media (min-width: 1000px) { 
     .img__servicio {
-        width: 35%;
-        height: 35%;
+        width: 45%;
+        height: 45%;
     }
     
-    .grey_padding {
+    /* .grey_padding {
         margin: 4em 10em 4em 0;
     }
 
     .white_padding {
         margin: 4em 0 4em 10em;
-    }
+    } */
 
 }

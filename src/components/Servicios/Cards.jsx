@@ -22,7 +22,8 @@ export default function Cards() {
             <li>Mantenimiento completo</li>
             <li>Mecánica general</li>
             <li>Mecánica avanzada</li>
-            <li>Asistencia a domicilio y recogida de vehículo</li>
+            <li>Electromecánica</li>
+            {/* <li>Asistencia a domicilio y recogida de vehículo</li> */}
           </ol>
           <Button className='btn_leer' href='#' endIcon={<ArrowForwardSharpIcon />} sx={{ color: '#FA5858' }}>
             Leer más

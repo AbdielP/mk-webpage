@@ -2,6 +2,7 @@ import "../../styles/servicios/servicio.css"
 import mantainance from "../../assets/images/mantainance.jpeg"
 import recogida from "../../assets/images/recogida.jpg"
 import avanzada from "../../assets/images/avanzada.jpg"
+import scanner from "../../assets/images/scanner.jpg"
 import engine from "../../assets/images/n55.jpg"
 
 export default function ListaServicios() {
@@ -23,7 +24,7 @@ export default function ListaServicios() {
             exhaustiva de todos los componentes y sistemas para identificar
             posibles problemas y realizar las correcciones necesarias.
           </p>
-          <ol>
+          <ol className="ol__servicios">
             <li>Cambio de aceite y fluidos de motor</li>
             <li>Cambio de bujías</li>
             <li>Cambio de aceite de transmisión</li>
@@ -48,7 +49,7 @@ export default function ListaServicios() {
             realizados y tarifas competitivas. Confía en nosotros para cuidar de
             tu vehículo como si fuera nuestro propio automóvil.
           </p>
-          <ol>
+          <ol className="ol__servicios">
             <li>Sistema de frenos</li>
             <li>Suspensión y dirección</li>
             <li>Suspensión de escape</li>
@@ -78,8 +79,22 @@ export default function ListaServicios() {
       <div className="div__servicio bg_grey bg_toolbox bg_img_fondo">
         <img
           className="img__servicio grey_padding"
-          src={recogida}
+          src={scanner}
           alt="recogida de vehiculo"
+        />
+        <div className="div__servicio_descripcion">
+          <h4 className="subtitulo span_rojo">ELECTROMECÁNICA</h4>
+          <p className="descripcion_servicio">
+          Contamos con un equipo de electromecánicos capacitados que cuentan con la habilidad de diagnosticar y resolver una amplia variedad de fallas mecánicas y electrónicas en tu vehículo. Nuestro servicio de electromecánica está diseñado para brindarte soluciones completas y especializadas en vehículos modernos, donde la mecánica y la electrónica se entrelazan.
+          </p>
+        </div>
+      </div>
+
+      <div className="div__servicio bg_white">
+        <img
+          className="img__servicio white_padding"
+          src={recogida}
+          alt="recogida de vehículo"
         />
         <div className="div__servicio_descripcion">
           <h4 className="subtitulo span_rojo">ASISTENCIA A DOMICILIO Y RECOGIDA DE VEHICULO</h4>
