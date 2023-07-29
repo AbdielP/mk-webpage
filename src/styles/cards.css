@@ -46,6 +46,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    margin-top: .5em;
 }.p__card_map {
     font-weight: 500;
     color: var(--color-black-mk);
