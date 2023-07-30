@@ -7,7 +7,7 @@ import engine from "../../assets/images/n55.jpg"
 
 export default function ListaServicios() {
   return (
-    <>
+    <section>
       <div className="div__servicio bg_white">
         <img
           className="img__servicio"
@@ -103,6 +103,6 @@ export default function ListaServicios() {
           </p>
         </div>
       </div>
-    </>
+    </section>
   )
 }

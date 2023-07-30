@@ -5,19 +5,17 @@
     position: relative;
 }
 
-.h3 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.h1 {
+    text-align: center;
     font-family: 'Anton', sans-serif;
     letter-spacing: .08em;
     margin-top: 1em;
     margin-bottom: 1em;
 }
 
-.p__servicios {
-    text-align: center;
+.h2, .p__servicios {
     font-size: .9em;
+    display: inline;
     letter-spacing: .15em;
     line-height: 1.7em;
 }
@@ -30,17 +28,18 @@
 @media (min-width: 800px) { 
 
     .section__servicios {
+        
+        text-align: center;
         padding: 5em;
         padding-bottom: 2em;
     }
 
-    .h3 {
-        text-align: center;
+    .h1 {
         font-size: 2.7em;
         margin-top: 3em;
     }
 
-    .p__servicios {
+    .p__servicios, .h2 {
         letter-spacing: .18em;
         font-size: 1.1em;
         max-width: 1200px;
@@ -49,7 +48,7 @@
 }
 
 @media (min-width: 1000px) { 
-    .h3 {
-        margin-top: 5em;
+    .h1 {
+        margin-top: 4.5em;
     }
  }

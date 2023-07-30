@@ -2,27 +2,22 @@ import "../../styles/servicios.css"
 import Cards from "./Cards"
 import Marcas from "../Marcas/Marcas"
 import ListaServicios from "./ListaServicios"
-import BuildCircleOutlinedIcon from "@mui/icons-material/BuildCircleOutlined"
 
 export default function Servicios() {
   return (
     <>
       <section className="section__servicios">
         <Cards />
-        <h3 className="h3">
-          <BuildCircleOutlinedIcon
-            fontSize="inherit"
-            sx={{ marginRight: ".3em" }}
-          />
-          NUESTROS SERVICIOS
-        </h3>
+        <h1 className="h1">
+          TALLER M<span className="span_rojo">K</span> - MECÁNICA AVANZADA
+        </h1>
+        <h2 className="h2 span_rojo">Taller mecánico multimarca en Panamá. </h2>
         <p className="p__servicios" id="nuestros-servicios">
-          Somos un <span className="span_rojo">taller de mecánica multimarca en Panamá</span>. Nuestro
-          taller abarca una amplia gama de servicios, desde <b>mantenimiento
+          Nuestro taller abarca una amplia gama de servicios, desde <b>mantenimiento
           preventivo</b>, <b>cambios de aceite</b>, <b>inspección y reemplazo de filtros</b>,
           <b> revisión del sistema de frenos y suspensión</b>, <b>electromecánica</b>, <b>diagnotico avanzado</b>,
           <b> servicios de reparación</b> tanto para averías menores como para
-          problemas más complejos y <a className="span_rojo" href="">más servicios</a>.
+          problemas más complejos y <a className="span_rojo" href="">más</a>.
         </p>
         <hr className="hr" />
 

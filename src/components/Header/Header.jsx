@@ -8,7 +8,7 @@ export default function Header() {
     <header className="header">
       <Navbar />
       <div className="header__div animate__animated animate__fadeIn animate__delay-1s">
-        <img className="img__logo" src={logomk} alt="logo mk" />
+        <img className="img__logo" src={logomk} alt="logo taller mk" />
       </div>
     </header>
   );

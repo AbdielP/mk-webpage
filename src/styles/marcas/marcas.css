@@ -1,4 +1,4 @@
-.div__bg {
+.section__marcas {
     background-color: var(--background-color2);
     padding: 1em;
 }
@@ -8,24 +8,9 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    /* padding: 2em 0 5em; */
-    /* overflow: hidden; */
-
-    /* position: relative;
-    animation: MyDiv infinite;
-    animation-duration: 30s;
-    animation-iteration-count: 2;
-    animation-timing-function: ease-in;
-    animation-direction: normal; */
 }
 
-@keyframes MyDiv {
-    0%   {left: 0px; top: 0px;}
-    100%  {left: 100%; top: 0px;}
-  }
-
 .img__marca {
-    /* width: 15%; */
     margin: .3em;
     width: 2em;
 }
@@ -39,10 +24,6 @@
 }
 
 @media (min-width: 600px) { 
-    /* .div__bg {
-        padding: 1em 15em;
-    } */
-
     .img__marca {
         width: 5em;
     }
@@ -57,7 +38,7 @@
 }
 
 @media (min-width: 1200px) { 
-    .div__bg {
+    .section__marcas {
         padding: 1em 15em;
     }
 }

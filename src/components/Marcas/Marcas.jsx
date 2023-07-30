@@ -29,7 +29,7 @@ import volvo from '../../assets/images/car brands/volvo.png'
 
 export default function Marcas() {
     return (
-        <div className='div__bg'>
+        <section className='section__marcas'>
             <div className='div__marcas animate__animated animate__fadeIn animate__delay-2s'>
                 <img className='img__marca' src={acura} alt='acura logo' />
                 <img className='img__marca' src={audi} alt='audi logo' />
@@ -59,6 +59,6 @@ export default function Marcas() {
                 <img className='img__marca less_width' src={volkswagen} alt='volkswagen logo' />
                 <img className='img__marca' src={volvo} alt='volvo logo' />
             </div>
-        </div>
+        </section>
     )
 }
