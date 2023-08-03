@@ -33,7 +33,7 @@ export default function Ubicacion() {
         
       </div>
       <div className='div__mapa'>
-        <iframe className='iframe' src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d246.28905363191808!2d-79.50177523619372!3d9.006623436314488!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8faca9bad08722df%3A0x9aa591b4d518ae74!2sFan&#39;s%20Car!5e0!3m2!1sen!2spa!4v1689374193566!5m2!1sen!2spa" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+        <iframe className='iframe' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1970.3127544958083!2d-79.50250063563213!3d9.006563729598822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8faca978da5a5b27%3A0x9b06704811c78b98!2sTaller%20MK%20Panam%C3%A1!5e0!3m2!1sen!2spa!4v1691086540653!5m2!1sen!2spa" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </div>
   )

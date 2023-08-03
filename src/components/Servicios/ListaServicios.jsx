@@ -52,7 +52,7 @@ export default function ListaServicios() {
           <ol className="ol__servicios">
             <li>Sistema de frenos</li>
             <li>Suspensión y dirección</li>
-            <li>Suspensión de escape</li>
+            <li>Sistema de escape</li>
             <li>Sistema eléctrico</li>
             <li>Sistema de enfriamiento</li>
             <li>Sistema de aire acondicionado</li>
