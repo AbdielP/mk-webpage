@@ -1,44 +1,28 @@
 .section__marcas {
+    height: 180px;
     background-color: var(--background-color2);
-    padding: 1em;
+    background-image: url('../../assets/images/brand_xsmall_size.png');
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.div__marcas {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.img__marca {
-    margin: .3em;
-    width: 2em;
-}
-
-.more_width {
-    width: 2.25em;
-}
-
-.less_width {
-    width: 1.1em;
-}
-
-@media (min-width: 600px) { 
-    .img__marca {
-        width: 5em;
-    }
-    
-    .more_width {
-        width: 5.5em;
-    }
-    
-    .less_width {
-        width: 2.8em;
-    }
-}
-
-@media (min-width: 1200px) { 
+@media (min-width: 480px) { 
     .section__marcas {
-        padding: 1em 15em;
+        background-image: url('../../assets/images/brand_small_size.png');
+        height: 200px;
+    }
+}
+
+@media (min-width: 950px) { 
+    .section__marcas {
+        background-image: url('../../assets/images/brand_med_size.png');
+    }
+}
+
+@media (min-width: 1400px) { 
+    .section__marcas {
+        background-image: url('../../assets/images/brand_max_size.png');
+        height: 250px;
     }
 }

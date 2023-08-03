@@ -19,3 +19,6 @@ function App() {
 }
 
 export default App
+// https://www.carlogos.org/car-brands/
+// https://themes.vamtam.com/?theme=auto
+// https://www.pngegg.com/en/search?q=mechanics
